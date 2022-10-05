@@ -1,0 +1,96 @@
+#cardtitle{
+    color: black;
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 2%;
+    
+}
+
+.text{
+    margin-top: 5px;
+    font-size: 90%;
+    color: black;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px){
+    .text{
+    margin-top: 5px;
+    font-size: 70%;
+    color: black;
+    font-weight: bold;
+
+    }
+}
+
+#cardimg{
+    width: 45%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+@media only screen and (max-width: 600px){
+    #cardimg{
+        width: 90%;
+    }
+}
+
+#imgposition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#complete{
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30%;
+    border: none;
+    height: 40px;
+    padding: 10px;
+}
+
+.but{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.cards{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    padding: 5px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    opacity: 80%;
+  }
+  
+@media only screen and (max-width: 600px) {
+    .cards{
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 100%;
+      padding: 3%;
+      margin-top: 10%;
+      margin-bottom: 15%;
+      margin-left: 10%;
+      margin-right: 10%;
+      background-color: white;
+      opacity: 70%;
+    }
+  }

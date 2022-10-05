@@ -1,0 +1,86 @@
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    opacity: 80%;
+    font-family:'Raleway', sans-serif; 
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        color: black;
+        opacity: 80%;
+        font-family:'Raleway', sans-serif;
+        font-size: 110%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}    
+
+
+.text{
+    padding: 2%;   
+}
+
+
+
+#myskills{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 400%; 
+}
+
+.aboutbuttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.b{
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.b:hover{
+    background-color: grey;
+    color: white;
+}
+
+#datame{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin-top: 30%;
+}
+
+@media only screen and (max-width: 600px){
+    #datame{
+    position: absolute;
+    width: 90%;
+    height: 35%;
+    margin-top: 95%;
+    }
+}

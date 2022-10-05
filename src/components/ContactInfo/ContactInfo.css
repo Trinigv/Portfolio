@@ -1,0 +1,25 @@
+#inforesp{
+    background-color: #F7F7F7;
+	opacity: 80%;
+	width: 15%;
+    border-radius: 3%;
+	position: fixed;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: row;
+	margin-left: 83%; 
+	align-items: right;
+}
+
+@media only screen and (max-width: 600px){
+    #inforesp{
+    position: static;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+    }
+}
