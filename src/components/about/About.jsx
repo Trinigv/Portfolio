@@ -3,10 +3,8 @@ import Back from '../background/Background';
 import '../background/Background.css';
 import './About.css';
 import NavBar from '../NavBar';
-import skills from '../../images/skills black.png';
-import background from '../../images/man_using_a_macbook_2.jpeg';
+import background from '../../images/jeje.jpeg';
 import me from '../../images/me.jpeg';
-import Contact from '../ContactInfo/ContactInfo';
 import data from '../../images/1.jpg';
 
 function About() {

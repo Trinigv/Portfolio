@@ -16,7 +16,7 @@ function Pills() {
 					<div className='right'>
 						<Nav.Item>
 							<Link
-								to='/'
+								to='/home'
 								style={{
 									textDecoration: 'none',
 								}}>

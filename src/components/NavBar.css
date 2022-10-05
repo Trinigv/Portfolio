@@ -4,6 +4,7 @@
     justify-content:right;
     align-items: center;
     padding: 30px;
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -22,6 +23,7 @@
     border: none;
     font-size: medium;
     padding: 20px;
+    cursor: pointer;
 }
 
 button:hover{
