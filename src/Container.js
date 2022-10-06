@@ -6,15 +6,32 @@ import Cardsapi from './components/cards/cardapi';
 import Cardsfood from './components/cards/cardsfood';
 import Contact from './components/ContactInfo/ContactInfo';
 import React from 'react';
+import { motion } from 'framer-motion';
+
+const variants = {
+	hidden: {
+		opacity: 0.7,
+	},
+	visible: {
+		opacity: 1,
+		transition: { duration: 0.3 },
+	},
+	exit: {
+		transition: { ease: 'easeInOut' },
+	},
+};
 
 function Container() {
 	return (
-		<div>
+		<motion.div
+			variants={variants}
+			initial='hidden'
+			animate='visible'
+			exit='exit'>
 			<div id='nav'>
 				<Pills />
 			</div>
 			<div>
-				<p id='title'>Trini Garcia Valicente</p>
 				<h6>
 					I'm a Full Stack Web Developer with a special interest in
 					Backend Development and open to specialize myself.
@@ -41,7 +58,7 @@ function Container() {
 			</div>
 
 			<Back />
-		</div>
+		</motion.div>
 	);
 }
 

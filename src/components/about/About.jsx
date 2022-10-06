@@ -6,10 +6,28 @@ import NavBar from '../NavBar';
 import background from '../../images/jeje.jpeg';
 import me from '../../images/me.jpeg';
 import data from '../../images/1.jpg';
+import { motion } from 'framer-motion';
+
+const variants = {
+	hidden: {
+		opacity: 0.7,
+	},
+	visible: {
+		opacity: 1,
+		transition: { duration: 0.3 },
+	},
+	exit: {
+		transition: { ease: 'easeInOut' },
+	},
+};
 
 function About() {
 	return (
-		<div>
+		<motion.div
+			variants={variants}
+			initial='hidden'
+			animate='visible'
+			exit='exit'>
 			<NavBar />
 			<div id='profile'>
 				<img
@@ -100,7 +118,7 @@ function About() {
 				</div>
 			</div>
 			<Back />
-		</div>
+		</motion.div>
 	);
 }
 export default About;
