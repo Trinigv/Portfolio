@@ -31,17 +31,6 @@ function Container() {
 			<div id='nav'>
 				<Pills />
 			</div>
-			<div>
-				<h6>
-					I'm a Full Stack Web Developer with a special interest in
-					Backend Development and open to specialize myself.
-					Currently, I'm looking to join a team where I can implement
-					and contribute with my skills as well as continuing to
-					cultiavte my coding knwoledge. I have expertise in Node,
-					Express, mySQL, postgreSQL, React, Redux, Swagger
-					Documentation, Passport JS, HTML and CSS.
-				</h6>
-			</div>
 			<div className='cards'>
 				{' '}
 				<Cards />
