@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Zoom from 'react-reveal/Zoom';
 import About from '../about/About';
-import '../about/About.css';
 import NavBar from '../NavBar';
 
 const variants = {

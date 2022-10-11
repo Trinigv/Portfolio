@@ -1,3 +1,14 @@
+
+@media(max-width: 800px){
+    .about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 335px;
+    padding: 5px;
+    }
+}
+
+
 .content{
     background-color: aliceblue;
     color: black;
@@ -6,23 +17,10 @@
     font-size: x-large;
     margin-left: 1px;
     margin-right: 1px;
-
 }
 
-@media only screen and (max-width: 600px) {
-    .content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: aliceblue;
-        color: black;
-        opacity: 80%;
-        font-family:'Raleway', sans-serif;
-        font-size: 130%;
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-}    
+
+   
 
 
 .text{

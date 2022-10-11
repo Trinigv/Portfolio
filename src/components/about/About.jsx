@@ -25,10 +25,10 @@ function About() {
 			animate='visible'
 			exit='exit'>
 			<div
+				className='about'
 				style={{
 					display: 'flex',
 					flexDirection: 'row',
-					justifyContent: 'inherit',
 				}}>
 				<div id='profile'>
 					<img

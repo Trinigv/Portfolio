@@ -30,6 +30,12 @@
     margin-left: 100px;
     margin-top: 50px;
 }
+@media(max-width: 800px){
+    #landingbutton{
+        width: 100px; 
+        margin-left: 5px;
+    }
+}
 
 #landbutton{
     color: black;
