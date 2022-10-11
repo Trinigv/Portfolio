@@ -2,6 +2,10 @@ import './landing.css';
 import Back from '../landingbackground/LandingBack';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import Zoom from 'react-reveal/Zoom';
+import About from '../about/About';
+import '../about/About.css';
+import NavBar from '../NavBar';
 
 const variants = {
 	hidden: {
@@ -15,7 +19,6 @@ const variants = {
 		transition: { ease: 'easeInOut' },
 	},
 };
-
 function Landing() {
 	return (
 		<motion.div
@@ -23,6 +26,7 @@ function Landing() {
 			initial='hidden'
 			animate='visible'
 			exit='exit'>
+			<NavBar />
 			<div id='landingtitle'>
 				<h1 id='welcome'>Welcome to my portfolio.</h1>
 			</div>
@@ -43,10 +47,15 @@ function Landing() {
 					<button id='landbutton'> See projects → </button>
 				</Link>
 			</div>
-			<div id='play'>
+			<div>
 				{' '}
-				<h3>Or play with the background...! </h3>
 				<Back />
+			</div>
+			<div className='fade-in'>
+				<Zoom>
+					<h1 id='play'>About Me</h1>
+					<About />
+				</Zoom>
 			</div>
 		</motion.div>
 	);

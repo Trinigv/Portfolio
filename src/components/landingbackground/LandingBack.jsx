@@ -67,7 +67,7 @@ const Back = () => {
 						},
 						trail: {
 							delay: 0.005,
-							quantity: 5,
+							quantity: 1,
 							pauseOnStop: true,
 						},
 					},

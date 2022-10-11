@@ -4,7 +4,7 @@
     align-items: left;
     margin-top: 150px;
     margin-left: 100px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', sans-serif; 
     font-size: 170%
 }
 
@@ -60,10 +60,25 @@
     justify-content: left;
     align-items: left;
     color: white;
+    margin-left: 5px;
     margin-top: 100px;
-    margin-left: 110px;
+    margin-bottom: 80px;
     font-family: 'Raleway', sans-serif;
     text-decoration: underline;
     text-decoration-color: black;
+    font-size: 380%
+}
 
+
+.fade-in{
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    padding: 10%;
+}
+
+#imgjs{
+    width: 10%;
+    height: 10%;
 }
