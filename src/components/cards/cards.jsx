@@ -12,15 +12,15 @@ function Cards() {
 						<img id='cardimg' src={bookovich} alt='loading' />
 					</div>
 					<div className='text'>
-						📍 Created fundametal database models and Entity
-						Relationship Diagram <br /> 📍 Programmed 'Register' and
-						'Log In' routes for webpage users <br /> 📍 Pogrammed a
+						✔️ Created fundametal database models and Entity
+						Relationship Diagram <br /> ✔️ Programmed 'Register' and
+						'Log In' routes for webpage users <br /> ✔️ Pogrammed a
 						middleware to generate JSON Web Token with Passport JS{' '}
-						<br /> 📍 Configured Firebase authentication <br /> 📍
+						<br /> ✔️ Configured Firebase authentication <br /> ✔️
 						Coded Google registration routes to incorporate Google
 						users to our database
-						<br /> 📍 Connected backend routes of cart changes to
-						frontend funcionallity <br /> 📍 Programmed mailing
+						<br /> ✔️ Connected backend routes of cart changes to
+						frontend funcionallity <br /> ✔️ Programmed mailing
 						logic in React frontend
 					</div>
 					<div className='button'>

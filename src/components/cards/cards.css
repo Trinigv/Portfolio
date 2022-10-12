@@ -8,9 +8,11 @@
 
 .text{
     margin-top: 5px;
-    font-size: 90%;
+    font-size: 80%;
     color: black;
     font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5%;
 }
 @media only screen and (max-width: 600px){
     .text{
@@ -44,6 +46,7 @@
 #complete{
     font-family: 'Raleway', sans-serif;
     font-size: x-large;
+    letter-spacing: 1px;
     
 }
 

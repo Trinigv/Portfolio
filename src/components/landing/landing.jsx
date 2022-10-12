@@ -46,6 +46,11 @@ function Landing() {
 					<button id='landbutton'> See projects → </button>
 				</Link>
 			</div>
+			<div className='vl'>
+				{' '}
+				<p className='direction'> ← about me </p>
+			</div>
+
 			<div>
 				{' '}
 				<Back />

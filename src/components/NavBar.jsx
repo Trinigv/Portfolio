@@ -6,7 +6,7 @@ import { useLocation } from 'react-router-dom';
 
 function Pills() {
 	const saveFile = () => {
-		saveAs('https://docdro.id/RB5Eo5A', 'triniCV.pdf');
+		saveAs('https://docdro.id/CKKbGBh');
 	};
 	const location = useLocation();
 	return (
@@ -41,7 +41,7 @@ function Pills() {
 				)}
 				<Nav.Item className='right'>
 					<button className='navbarbutton' onClick={saveFile}>
-						Download CV
+						Resume
 					</button>
 				</Nav.Item>
 			</div>
