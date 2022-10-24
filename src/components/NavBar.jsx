@@ -13,36 +13,32 @@ function Pills() {
 		<Nav variant='pills' defaultActiveKey='/home' className='Nav'>
 			<div className='items'>
 				{location.pathname === '/' ? (
-					<div className='right'>
+					<div className='right' id='pro'>
 						<Nav.Item>
 							<Link
 								to='/home'
 								style={{
 									textDecoration: 'none',
+									color: 'black',
 								}}>
-								<button className='navbarbutton'>
-									Projects
-								</button>
+								Projects
 							</Link>
 						</Nav.Item>
 					</div>
 				) : (
-					<div>
+					<div className='right'>
 						<Link
 							to='/'
 							style={{
 								textDecoration: 'none',
+								color: 'white',
 							}}>
-							<button className='navbarbutton'>
-								Welcome Page
-							</button>
+							Welcome Page
 						</Link>
 					</div>
 				)}
-				<Nav.Item className='right'>
-					<button className='navbarbutton' onClick={saveFile}>
-						Resume
-					</button>
+				<Nav.Item className='right' onClick={saveFile}>
+					Resume
 				</Nav.Item>
 			</div>
 		</Nav>
