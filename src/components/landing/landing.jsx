@@ -2,7 +2,6 @@ import './landing.css';
 import Back from '../landingbackground/LandingBack';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Zoom from 'react-reveal/Zoom';
 import About from '../about/About';
 import NavBar from '../NavBar';
 
@@ -56,10 +55,8 @@ function Landing() {
 				<Back />
 			</div>
 			<div className='fade-in'>
-				<Zoom>
-					<h1 id='play'>About Me</h1>
-					<About />
-				</Zoom>
+				<h1 id='play'>About Me</h1>
+				<About />
 			</div>
 		</motion.div>
 	);

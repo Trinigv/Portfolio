@@ -7,7 +7,6 @@ import Cardsfood from './components/cards/cardsfood';
 import Contact from './components/ContactInfo/ContactInfo';
 import React from 'react';
 import { motion } from 'framer-motion';
-import Zoom from 'react-reveal/Zoom';
 
 const variants = {
 	hidden: {
@@ -32,22 +31,20 @@ function Container() {
 			<div id='nav'>
 				<Pills />
 			</div>
-			<Zoom>
-				<div className='cards'>
-					{' '}
-					<Cards />
-				</div>
-			</Zoom>
-			<Zoom>
-				<div className='cards'>
-					<Cardsapi />
-				</div>
-			</Zoom>
-			<Zoom>
-				<div className='cards'>
-					<Cardsfood />
-				</div>
-			</Zoom>
+
+			<div className='cards'>
+				{' '}
+				<Cards />
+			</div>
+
+			<div className='cards'>
+				<Cardsapi />
+			</div>
+
+			<div className='cards'>
+				<Cardsfood />
+			</div>
+
 			<div>
 				<Contact />
 			</div>
